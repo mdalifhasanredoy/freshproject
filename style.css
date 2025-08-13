@@ -2,20 +2,26 @@
     margin: 0;
     padding: 0;
 }
+
 /* common css Start */
 .container {
     width: 1290px;
     margin: 0 auto;
 }
+
 .box {
-    display: flex;   
+    display: flex;
 }
-ul,ol {
+
+ul,
+ol {
     list-style: none;
 }
+
 a {
     text-decoration: none;
 }
+
 /* common css End */
 
 
@@ -24,31 +30,38 @@ nav {
     background: #FAE3B6;
     padding: 47px 0px;
 }
-nav .box{
+
+nav .box {
     align-items: center;
 }
+
 .logo {
     width: 22%;
 }
+
 .menu {
     width: 50%;
 
 }
+
 .menu ul {
     display: flex;
     column-gap: 59px;
     cursor: pointer;
 }
+
 .menu ul li {
     font-size: 24px;
     font-weight: 600;
     color: #000000;
     font-family: "Poppins", sans-serif;
 }
+
 .button {
     width: 28%;
     text-align: right;
 }
+
 .button a {
     background: #FDBB57;
     padding: 10px 15px;
@@ -61,9 +74,11 @@ nav .box{
     border: 1px solid transparent;
     transition: .5s;
 }
+
 .button a:first-child {
     margin-right: 5px;
 }
+
 .button a:hover {
     background: #FAE3B6;
     border-color: rgba(0, 0, 0, 0.10);
@@ -72,31 +87,36 @@ nav .box{
     -moz-box-shadow: 1px 8px 9px -4px rgba(0, 0, 0, 0.15);
 
 }
+
 /* Navbar css End */
 
 
 /* Banner css Start */
-.banner{
+.banner {
     background: #FAE3B6;
     padding-top: 117px;
     padding-bottom: 102px;
 }
-.bannercontent{
+
+.bannercontent {
     width: 50%;
-    
+
 }
-.bannerimage{
+
+.bannerimage {
     width: 50%;
-    
+
 }
-.banner h1{
+
+.banner h1 {
     font-size: 64px;
     font-weight: 600;
     color: black;
     font-family: "Poppins", sans-serif;
     width: 538px;
 }
-.banner p{
+
+.banner p {
     font-size: 22px;
     font-weight: 400;
     color: black;
@@ -105,14 +125,29 @@ nav .box{
     padding-bottom: 76px;
     width: 531px;
 }
-.banner a{
-    background:black;
+
+.banner a {
+    background: black;
     color: white;
-    padding:25px 91px;
+    padding: 25px 91px;
     display: inline-block;
     border-radius: 10px;
     font-size: 24px;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
+    border: 1px solid transparent;
+    transition: .5s;
 }
+
+.banner a:hover {
+    background: #FAE3B6;
+    border-color: rgba(0, 0, 0, 0.10);
+    box-shadow: 1px 8px 9px -4px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 1px 8px 9px -4px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 1px 8px 9px -4px rgba(0, 0, 0, 0.15);
+    color: black;
+
+
+}
+
 /* Banner css End */
