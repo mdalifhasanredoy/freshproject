@@ -208,5 +208,45 @@ nav .box {
     left: 17px;
 
 }
+.bgimg{
+    margin-left: 79%;
+    margin-top: -12%;
+}
 
 /* collection css End */
+
+
+/* fashion css start */
+.fashion .left{
+    width: 50%;
+   
+}
+.fashion .left img{
+    width: 100%;
+   
+}
+.fashion .right{
+    width: 50%;
+    padding-left: 50px;
+   
+}
+.fashion .box{
+    align-items: center;
+}
+.fashion .right h2{
+    font-size: 64px;
+    font-weight:700 ;
+    color: black;
+    font-family: "Frank Ruhl Libre", serif;
+    width: 437px;
+    padding-bottom: 63px;
+}
+.fashion .right p{
+    font-size: 24px;
+    font-weight:600 ;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    width: 443px;
+}
+
+/* fashion css end */
