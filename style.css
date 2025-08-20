@@ -310,3 +310,63 @@ nav .box {
 }
 
 /* fashion css end */
+
+
+/* best seller part start */
+
+.bestseller {
+    background: #CFA485;
+}
+
+.bestseller .box .bscontent h3 {
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    color: white;
+    width: 437px;
+    height: 162px;
+    margin-top: 36px;
+    margin-left: 50px;
+
+
+}
+
+.bestseller .box .bscontent p {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    color: white;
+    width: 437px;
+    height: 270px;
+    margin-top: 36px;
+    margin-left: 50px;
+
+
+}
+
+.bestseller .bscontent a {
+    display: inline-block;
+    background: black;
+    color: white;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding: 25px 91px;
+    border-radius: 10px;
+    margin-bottom: 191px;
+    margin-left: 50px;
+    margin-top: 36px;
+    transition: .4s;
+    border: 1px solid transparent;
+}
+
+.bestseller .bscontent a:hover {
+    background: #CFA485;
+    color: #000;
+    border-color: rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 8px 9px -4px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 1px 8px 9px -4px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 1px 8px 9px -4px rgba(0, 0, 0, 0.15);
+}
+
+/* best seller part end */
