@@ -368,5 +368,119 @@ nav .box {
     -webkit-box-shadow: 1px 8px 9px -4px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 1px 8px 9px -4px rgba(0, 0, 0, 0.15);
 }
+.bsimg .imagestars{
+    background: white;
+    padding: 14px 22px;
+    border: 2px solid white;
+    
+}
+
+.bsimg .imagestars h2{
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: black;
+
+}
+.bsimg .imagestars p{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: black;
+    opacity: 0.6;
+
+}
+.bsimg .imagestars h3{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: black;
+    margin-left: 125px;
+    margin-top: -37px;
+    
+
+}
+.bsimg .firstpart{
+    margin-left: 31px;
+    margin-top: 56px;
+
+}
+.bsimg{
+    display: flex;
+}
+.bsimg .imagestar{
+    background: white;
+    padding: 14px 22px;
+    border: 2px solid white;
+}
+.bsimg .imagestar h2{
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: black;
+
+}
+.bsimg .imagestar p{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: black;
+    opacity: 0.6;
+
+}
+.bsimg .imagestar h3{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: black;
+     margin-left: 125px;
+    margin-top: -37px;
+    
+
+}
+.bsimg .secondpart{
+    margin-left: 31px;
+    margin-top: 56px;
+
+}
+
+.image1{
+    position: relative;
+    
+    
+    
+}
+.imagestars{
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    transition: .5s;
+    opacity: 0;
+
+}
+.image1:hover .imagestars{
+    bottom: -119px;
+    
+    opacity: 1;
+}
+.image2{
+    position: relative;    
+}
+.imagestar{
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    transition: .5s;
+    opacity: 0;
+
+}
+.image2:hover .imagestar{
+    bottom: -119px;
+    opacity: 1;
+}
 
 /* best seller part end */
